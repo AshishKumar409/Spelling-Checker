@@ -1,4 +1,4 @@
-let RandomQuoteUrl = `http://api.quotable.io/random`
+let RandomQuoteUrl = `https://api.quotable.io/random`
 let h2  =  document.querySelector('h2')
 let textArea  =  document.querySelector('textarea')
 
