@@ -1,4 +1,4 @@
-let RandomQuoteUrl = `https://api.quotable.io/random`
+let RandomQuoteUrl = `https://freequote.herokuapp.com/`
 let h2  =  document.querySelector('h2')
 let textArea  =  document.querySelector('textarea')
 
@@ -7,7 +7,7 @@ function fetchQuote(){
  return fetch(RandomQuoteUrl).
 then((response)=>response.json()).
 then((data)=>{
-return data.content}).catch((err)=>console.log(err))
+return data.quote}).catch((err)=>console.log(err))
 }
 
 async function getQuote(){
