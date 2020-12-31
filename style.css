@@ -5,29 +5,26 @@
 }
 
 body {
-  background-color: rgb(138, 228, 228);
+  background-color: #2193b0;
 }
 
 .container {
-  border: 3px solid black;
-  height: 100vh;
   display: flex;
+  min-height: 100vh;
   justify-content: center;
   align-items: center;
+  margin: 0;
 }
 
 h2 {
-  padding-top: 10px;
-  padding-left: 10px;
-  padding-right: 10px;
-  width: 450px;
+  width: 100%;
   height: 150px;
+  padding: 2rem;
   border: 3px solid none;
   border-radius: 5px 5px 0 0;
   box-shadow: 1px 0px 3px 1px;
   border-bottom: 0px;
   background-color: rgb(171, 193, 235);
-
 }
 
 .innerContainer {
@@ -48,18 +45,24 @@ span {
 }
 
 textarea {
-  width: 450px;
-  height: 250px;
+  width: 100%;
+  height: 15rem;
+  outline: none;
+  margin: auto;
+  resize: none;
   background: rgb(169, 221, 223);
-  padding: 20px;
+  padding: 20px 10px;
   border-top: 0px;
   border-radius: 0px 0px 5px 5px;
   box-shadow: 1px 0px 3px 1px;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-size: large;
-
 }
 
+textarea:focus {
+  border-color: black;
+  border: 2px solid;
+}
 
 .green {
   color: green;
